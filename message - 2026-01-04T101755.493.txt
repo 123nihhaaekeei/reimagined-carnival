@@ -73,7 +73,7 @@ local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))
 local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 
 local Window = Library:CreateWindow({
-    Title = 'MoonGui discord.gg/Ae3YDeNE53',
+    Title = 'Unnamed. Enhancments',
     Center = true,
     AutoShow = true,
 })
@@ -4435,4 +4435,5 @@ task.spawn(function()
         Options.ragebottargets:SetValues(updatedNames)
         task.wait(1.5)
     end
+
 end)
