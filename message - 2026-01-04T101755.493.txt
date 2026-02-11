@@ -66,14 +66,14 @@ if loadstring(game:HttpGet("https://raw.githubusercontent.com/Mander120/Gui/refs
     return
 end
 
-local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/'
+local repo = 'https://raw.githubusercontent.com/LionTheGreatRealFrFr/MobileLinoriaLib/main/'
 
 local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
-local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
+local ThemeManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/CookieScript/Mobile/refs/heads/main/MobileLinoria/ThemeManager.lua'))()
 local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 
 local Window = Library:CreateWindow({
-    Title = 'Unnamed. Enhancments',
+    Title = 'Unnamed.Enhancments',
     Center = true,
     AutoShow = true,
 })
@@ -4437,3 +4437,4 @@ task.spawn(function()
     end
 
 end)
+
